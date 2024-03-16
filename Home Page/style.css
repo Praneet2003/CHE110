@@ -57,7 +57,7 @@ h1{
     color: rgb(58, 45, 239);
     size: 20px;
 }
-#login{
+#login ,#register{
     text-align: center;
     padding: 10px;
     margin: 10px;
