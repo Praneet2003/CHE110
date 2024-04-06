@@ -4,11 +4,18 @@ body {
     padding: 0;
     padding-top: 10px;
 }
-
+#ab{
+    display:inline-block;
+    justify-content: center;
+    padding: 15px;
+    margin-left: 220px;
+    /* margin: 10px; */
+    box-shadow: 0 0 20px rgb(249, 56, 56);
+}
 header {
     background-color: #333;
-    color: #fff;
-    padding: 20px;
+    color: #db4d4d;
+    padding: 10px;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -16,22 +23,27 @@ header {
     background-size: 110% 110%;
     font-size: larger;
 }
+header div span{
+    color: rgb(101, 226, 248);
+}
 
 nav ul {
     list-style-type: none;
     margin: 0;
-    padding: 10px;
+    padding: 5px;
+    background-color: rgb(9, 10, 6);
 }
 
 nav ul li {
     display: inline;
-    margin-left: 0px;
+    /* margin-left: 10px; */
     padding-left: 100px;
+    margin-left: 80px;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #bfeb6f;
+    color: rgb(101, 226, 248);
 }
 
 main {
@@ -49,20 +61,74 @@ footer {
     text-align: center;
 }
 h1{
-    color: wheat;
+    color: rgb(255, 228, 75);
 }
 #causes{
-    background-image: url("air pollution.jpeg");
+    /* background-image: url("air pollution.jpeg"); */
     background-size: 100% 100%;
-    color: rgb(58, 45, 239);
+    /* color: rgb(58, 45, 239); */
     size: 20px;
 }
 #login ,#register{
-    text-align: center;
+    text-align: Right;
     padding: 10px;
     margin: 10px;
-    background-color: #a0a5c1;
+    /* background-color: #a0a5c1; */
 }
 #login a {
-    color: rgb(255, 175, 36);
+    color: rgb(72, 255, 36);
+}
+#about h2{
+    text-align: center;
+    font-size: 30px;
+}
+#about p{
+    font-size:medium;
+}
+#effects h2{
+    text-align: center;
+    font-size: 30px;
+}
+#effects p{
+    font-size: medium;
+    padding-left: 10px;
+}
+#types p span{
+    font-size: 20px;
+}
+#causes p span{
+    font-size: 20px;
+}
+#causes h2{
+    text-align: center;
+    font-size: 30px;
+}
+#types h2{
+    text-align: center;
+    font-size: 30px;
+}
+#types p{
+    padding-left: 10px;
+}
+#effects p span{
+    font-size: 20px;
+}
+#solutions p span{
+    font-size: 20px;
+}
+#solutions h2{
+    text-align: center;
+}
+#cause-image{
+    text-align: center;
+}
+#cause-image img{
+    box-shadow: 0 0 50px rgb(249, 56, 56);
+}
+#img{
+    display:inline-block;
+    justify-content: flex-start;
+    padding: 15px;
+    /* margin: 10px; */
+    box-shadow: 0 0 20px rgb(249, 56, 56);
 }
