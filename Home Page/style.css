@@ -132,3 +132,13 @@ h1{
     /* margin: 10px; */
     box-shadow: 0 0 20px rgb(249, 56, 56);
 }
+#scheme p span{
+    font-size: 20px;
+}
+#scheme #img{
+    /* padding: 20px; */
+    margin-left: 340px;
+    justify-content: center;
+    /* padding-left: 30px; */
+    text-align: center;
+}
